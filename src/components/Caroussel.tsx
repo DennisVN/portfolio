@@ -14,7 +14,7 @@ export default function Caroussel() {
                 />
                 <Carousel.Caption>
                     <h5>React Pokédex</h5>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <p>Netlify Page / GitHub Page</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -25,8 +25,8 @@ export default function Caroussel() {
                 />
                 <Carousel.Caption>
                 <h5>Laravel Todo App</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
+                <p>Netlify Page / GitHub Page</p>
+                </Carousel.Caption>s
             </Carousel.Item>
             <Carousel.Item>
                 <img
@@ -36,7 +36,7 @@ export default function Caroussel() {
                 />
                 <Carousel.Caption>
                 <h5>Flappy Bert</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <p>Netlify Page/ GitHub Page</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
