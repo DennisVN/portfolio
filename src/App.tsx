@@ -10,10 +10,10 @@ function App() {
   return (
     <>
       <Router>
-          <Link to="/"><button className="btn btn-outline-light col-12 p-2" type="button"> homepage (minigame ?)</button></Link>
-          <Link to="/myProjects"><button className="btn btn-outline-light col-12 p-2" type="button"> my projects</button></Link>
-          <Link to="/contactInfo"><button className="btn btn-outline-light col-12 p-2" type="button"> contact info</button></Link>
-          <Link to="/aboutMe"><button className="btn btn-outline-light col-12 p-2" type="button"> about me</button></Link>
+            <Link to="/"><button className="btn btn-outline-light col-3 p-2" type="button"> homepage (minigame ?)</button></Link>
+            <Link to="/myProjects"><button className="btn btn-outline-light col-3 p-2" type="button"> my projects</button></Link>
+            <Link to="/contactInfo"><button className="btn btn-outline-light col-3 p-2" type="button"> contact info</button></Link>
+            <Link to="/aboutMe"><button className="btn btn-outline-light col-3 p-2" type="button"> about me</button></Link>
         <Switch>
           <Route path="/aboutMe" component={AboutMe} />
           <Route path="/contactInfo" component={ContactInfo}/>
