@@ -1,8 +1,20 @@
-.App 
-{
-  text-align: center;
-}
 body 
 {
   background-color: pink;
+}
+.fancyName 
+{
+  font-family: 'Syne', sans-serif;
+  color: black;
+  font-size: 10rem;
+  text-align: center;
+  justify-self: center;
+}
+
+.fancySubName 
+{
+  font-family: 'Sentient', serif;
+  font-size: 10rem;
+  text-align: center;
+  justify-self: center;
 }
