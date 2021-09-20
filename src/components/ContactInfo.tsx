@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+
 
 export default function ContactInfo() {
     return (
         <div>
-            <p>Contact Info</p>
+            <p>e-mail: d.vannieuwenhuyse@gmail.com</p>
+            <p>gsm : +32 472 48 69 15</p>
+            <p>adress : jakkamakka dummydata</p>
         </div>
     )
 }
