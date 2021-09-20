@@ -1,9 +1,10 @@
 import React from 'react'
+import Caroussel from './Caroussel'
 
 export default function MyProjects() {
     return (
-        <div>
-            <p>My Projects</p>
-        </div>
+        <>
+            <Caroussel />
+        </>
     )
 }
