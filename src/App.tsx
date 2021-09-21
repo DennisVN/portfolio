@@ -17,8 +17,8 @@ function App() {
       <Router>
             <Link to="/"><button className="btn btn-outline-black col-3" type="button"> HOME</button></Link>
             <Link to="/myProjects"><button className="btn btn-outline-black col-3" type="button">PROJECTS</button></Link>
-            <Link to="/contactInfo"><button className="btn btn-outline-black col-3 " type="button"> CONTACT</button></Link>
             <Link to="/aboutMe"><button className="btn btn-outline-black col-3 " type="button"> ABOUT</button></Link>
+            <Link to="/contactInfo"><button className="btn btn-outline-black col-3 " type="button"> CONTACT</button></Link>
         <Switch>
           <Route path="/" exact component={Name} />
           <Route path="/aboutMe" component={AboutMe} />
@@ -30,5 +30,4 @@ function App() {
     </>
   );
 }
-
 export default App;
