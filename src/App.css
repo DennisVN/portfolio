@@ -15,7 +15,7 @@ body
 .fancySubName 
 {
   font-family: 'Sentient', serif;
-  color: grey;
+  color: #66ff00;
   font-size: 8rem;
   text-align: center;
   justify-self: center;
@@ -70,4 +70,11 @@ background-color: rgba(245, 245, 245, 0.0);
 {
   display: flex;
   font-family: 'Courier', monospace;
+}
+
+.card
+{
+  background-color: #66ff00;
+  border-style: none;
+  border-radius: 0.05%;
 }
