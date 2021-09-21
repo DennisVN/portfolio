@@ -9,7 +9,7 @@ export default function Header() {
         <SocialIcon url="https://github.com/DennisVN" />
         </div>
         <div style={{display: 'flex', justifyContent: 'flex-start'}} className="header m-2" >
-        <p>Dennis van Nieuwenhuyse (Junior WebDev)</p><hr />
+        <p>DVN PORTFOLIO (Junior WebDev)</p><hr />
         </div>
         </>
     )
