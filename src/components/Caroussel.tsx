@@ -26,7 +26,7 @@ export default function Caroussel() {
                 <Carousel.Caption>
                 <h5>Laravel Todo App</h5>
                 <p>Netlify Page / GitHub Page</p>
-                </Carousel.Caption>s
+                </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img

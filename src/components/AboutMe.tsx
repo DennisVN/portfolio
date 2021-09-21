@@ -4,7 +4,6 @@ import testimage from '../images/testimage.jpg';
 
 export default function AboutMe() {
     return (
-
-        <Image src= {testimage} fluid />
+        <p>test</p>
     )
 }

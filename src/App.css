@@ -1,6 +1,6 @@
 body 
 {
-  background-color: pink;
+  background-color: #39ff14;
 }
 .fancyName 
 {
@@ -17,4 +17,14 @@ body
   font-size: 10rem;
   text-align: center;
   justify-self: center;
+}
+
+.btn 
+{
+  font-family: 'Sentient', serif;
+  font-size: 1.5rem;
+  border: none;
+  width: 100%;
+  height: 6rem;
+  max-width: 9rem;
 }

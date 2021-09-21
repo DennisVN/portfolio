@@ -6,7 +6,7 @@ export default function Name() {
     return (
         <>
         <div className="fancyName">DENNIS</div>
-        <div className="fancySubName">van Nieuwenhuyse</div>
+        {/* <div className="fancySubName">van Nieuwenhuyse</div> */}
         </>
     )
 }

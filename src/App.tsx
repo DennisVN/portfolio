@@ -12,18 +12,18 @@ function App() {
   return (
     <>
       <Router>
-            <Link to="/"><button className="btn btn-outline-light col-3" type="button"> homepage (minigame ?)</button></Link>
-            <Link to="/myProjects"><button className="btn btn-outline-light col-3" type="button"> my projects</button></Link>
-            <Link to="/contactInfo"><button className="btn btn-outline-light col-3" type="button"> contact info</button></Link>
-            <Link to="/aboutMe"><button className="btn btn-outline-light col-3" type="button"> about me</button></Link>
+            <Link to="/"><button className="btn btn-outline-black col-3" type="button"> HOME</button></Link>
+            <Link to="/myProjects"><button className="btn btn-outline-black col-3" type="button">PROJECTS</button></Link>
+            <Link to="/contactInfo"><button className="btn btn-outline-black col-3 " type="button"> CONTACT</button></Link>
+            <Link to="/aboutMe"><button className="btn btn-outline-black col-3 " type="button"> ABOUT</button></Link>
         <Switch>
+          <Route path="/" exact component={Name} />
           <Route path="/aboutMe" component={AboutMe} />
           <Route path="/contactInfo" component={ContactInfo}/>
           <Route path="/myProjects" component={MyProjects}/>
         </Switch>
       </Router>
       <Footer />
-      <Name />
     </>
   );
 }
