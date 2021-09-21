@@ -3,9 +3,11 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import './App.css';
 import AboutMe from './components/AboutMe';
 import ContactInfo from './components/ContactInfo';
+import Header from './components/Header';
 import Footer from './components/Footer';
 import MyProjects from './components/MyProjects';
 import Name from './components/Name';
+
 
 function App() {
 
@@ -23,6 +25,7 @@ function App() {
           <Route path="/myProjects" component={MyProjects}/>
         </Switch>
       </Router>
+      <Header />
       <Footer />
     </>
   );
