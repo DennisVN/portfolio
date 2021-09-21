@@ -13,6 +13,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <Router>
             <Link to="/"><button className="btn btn-outline-black col-3" type="button"> HOME</button></Link>
             <Link to="/myProjects"><button className="btn btn-outline-black col-3" type="button">PROJECTS</button></Link>
@@ -25,7 +26,6 @@ function App() {
           <Route path="/myProjects" component={MyProjects}/>
         </Switch>
       </Router>
-      <Header />
       <Footer />
     </>
   );

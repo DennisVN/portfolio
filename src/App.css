@@ -1,6 +1,6 @@
 body 
 {
-  background-color: #39ff14;
+  background-color: #37ff14e2;
 }
 .fancyName 
 {
@@ -14,7 +14,8 @@ body
 .fancySubName 
 {
   font-family: 'Sentient', serif;
-  font-size: 10rem;
+  color: grey;
+  font-size: 8rem;
   text-align: center;
   justify-self: center;
 }
@@ -35,4 +36,14 @@ body
   padding-left: 8rem;
   padding-top: 8rem;
   height: 100%;
+}
+/* fixed bottom = Footer */
+.fixed-bottom 
+{
+  font-family: 'Sentient', serif;
+}
+.header
+{
+  font-family: 'Syne', sans-serif;
+  font-size: 1.8rem;
 }

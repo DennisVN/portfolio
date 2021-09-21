@@ -7,8 +7,7 @@ export default function Footer() {
         <>
              <div>
                 <div className="fixed-bottom text-center" >
-                    <SocialIcon url="https://linkedin.com/in/dennisvannieuwenhuyse" />
-                    <SocialIcon url="https://github.com/DennisVN" />
+                    <p>"If you believe you are here to create, seek love & knowledge and you will find a way" - Modern Life Is War</p>
                 </div>
             </div>
         </>
