@@ -1,6 +1,7 @@
 body 
 {
   background-color: #37ff14e2;
+  display: block;
 }
 .fancyName 
 {
@@ -53,7 +54,7 @@ body
 background-color: rgba(245, 245, 245, 0.0); 
 }
 
-.bi-bag-check
+.bi
 {
   position: relative;
   float: left;
@@ -62,4 +63,9 @@ background-color: rgba(245, 245, 245, 0.0);
 .cardText
 {
   font-size: 1.6rem;
+}
+
+.cardContainer
+{
+  display: flex;
 }
