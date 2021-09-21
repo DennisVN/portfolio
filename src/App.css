@@ -52,3 +52,14 @@ body
 { 
 background-color: rgba(245, 245, 245, 0.0); 
 }
+
+.bi-bag-check
+{
+  position: relative;
+  float: left;
+}
+
+.cardText
+{
+  font-size: 1.6rem;
+}
