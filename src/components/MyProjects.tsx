@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import ProjectCard from './ProjectCard';
 
 export default function MyProjects() {
     return (
         <>
             {/* <Caroussel /> */}
-            <p>Projects</p>
+            <ProjectCard />
         </>
     )
 }

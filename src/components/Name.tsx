@@ -1,5 +1,4 @@
 import React from 'react';
-import WebFont from 'webfontloader';
 // import './App.css';
 
 export default function Name() {
