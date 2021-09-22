@@ -1,11 +1,11 @@
 import React from 'react';
-import ContactModal from './ContactModal';
+import ContactForm from './ContactForm';
 
 
 export default function ContactInfo() {
     return (
         <>
-        <ContactModal />
+        <ContactForm />
         </>
     )
 }
