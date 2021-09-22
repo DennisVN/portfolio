@@ -1,6 +1,5 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
-import { FormGroup } from 'react-bootstrap';
 
 
 export default function ContactForm() {
