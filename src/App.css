@@ -1,14 +1,14 @@
-.App {
+/* .App {
   /* display: flex;
   align-items: center;
   justify-content: center; */
-}
+/* } */
 
-body 
-{
+/* body  */
+/* { */
   /* background-color: #37ff14e2; */
-  display: block;
-}
+  /* display: block; */
+/* } */ 
 .fancyName 
 {
   font-family: 'Syne', sans-serif;
@@ -103,4 +103,25 @@ background-color: rgba(245, 245, 245, 0.0);
   text-align: center; */
   margin: auto;
   margin-top: 22%;
+}
+
+@media (max-width: 991.98px)
+{
+    .fancyName 
+  {
+    font-family: 'Syne', sans-serif;
+    color: black;
+    font-size: 3rem;
+    /* text-align: center;
+    justify-self: center; */
+  }
+
+  .fancySubName 
+  {
+    font-family: 'Sentient', serif;
+    color: #66ff00;
+    font-size: 2rem;
+    /* text-align: center;
+    justify-self: center; */
+  }
 }
