@@ -25,7 +25,7 @@ function App() {
       {
         loading ?
         
-        <ClimbingBoxLoader color={"#66ff00"} loading={loading} size={30} />
+        <ClimbingBoxLoader color={"#66ff00"} loading={loading} size={30}/>
         : 
         <>
         <Header />
