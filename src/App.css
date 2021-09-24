@@ -179,19 +179,41 @@ background-color: rgba(245, 245, 245, 0.0);
     font-size: 1rem;
   }
 
-  .btn-outline-black
-  {
-    display: none;
-  }
   .btn-dark
   {
     width: 50%;
     margin: 2px;
     border-style: none;
   }
-  .navbar
+.col-md-3
 {
-  display: block;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.2rem;
+  width: 100%;
+}
+
+.click:hover
+{
+  background-color: transparent;
+  transform: none;
+  transition-duration: none;
+}
+.cardContainer 
+{
+  margin: 4px;
+  border-radius: 2%;
+  background-color: pink;
+  font-size: 1.5rem;
+}
+
+.fixed-bottom
+{
+  margin-bottom: 1px;
+  max-height: 50px;
+  font-size: 0.6rem;
 }
 
 }
