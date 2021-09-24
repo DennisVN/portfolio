@@ -9,12 +9,14 @@ import ContactCard from './ContactCard';
 export default function ContactInfo() {
     return (
         <>
-        <Container>
-            <Row>
-                <Col xs={12} md={4}><ContactForm /></Col>
-                <Col xs={12} md={8}><ContactCard /></Col>
-            </Row>
-        </Container>
+        <div className="contactContainer">
+            <Container>
+                <Row>
+                    <Col xs={12} md={4}><ContactForm /></Col>
+                    <Col xs={12} md={8}><ContactCard /></Col>
+                </Row>
+            </Container>
+        </div>
         </>
     )
 }
