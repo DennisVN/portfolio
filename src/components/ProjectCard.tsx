@@ -10,7 +10,7 @@ export default function ProjectCard() {
             <div className="cardContainer text-center">
                 <Card style={{ border:'primary' }}>
                     <Card.Body>
-                        <Card.Title>React Pokédex<hr/></Card.Title>
+                        <Card.Title>REACT POKéDEX<hr/></Card.Title>
                         <Card.Text>
                             Pokédex app in React, not your average tutorial dex.
                             First page created by the amazing Jonathan, Pokédex page by me .
@@ -23,7 +23,7 @@ export default function ProjectCard() {
                 <div className="cardContainer text-center">
                 <Card style={{ border:'primary' }}>
                     <Card.Body>
-                        <Card.Title>Weather App<hr/></Card.Title>
+                        <Card.Title>WEATHER APP<hr/></Card.Title>
                         <Card.Text>
                         I fetched the 5 day forecast, returned it to JSON, and manipulated it with JS.
                         The user can input a city in the input field, click ENTER, and the forecast displays accordingly. 

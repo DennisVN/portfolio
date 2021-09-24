@@ -96,10 +96,17 @@ background-color: rgba(245, 245, 245, 0.0);
 
 }
 
+.card-title.h5
+{
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+}
 .cardContainer
 {
   /* display: flex; */
   font-family: 'Courier', monospace;
+  font-size: 2rem;
 }
 
 .card

@@ -13,7 +13,11 @@ export default function MyProjects() {
                         <ProjectCard />
                     </Col>
                 </Row>
+                <br></br>
+                <br></br>
+                <br></br>
             </Container>
+            
         </>
     )
 }
