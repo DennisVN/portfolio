@@ -16,7 +16,7 @@ export default function ProjectCard() {
                             First page created by the amazing Jonathan, Pokédex page by me .
                             Used PokéAPI for this project.  
                         </Card.Text>
-                        <Button variant="dark" href="https://pokedex-dennis-jonathan.netlify.app/">Check it out !</Button>
+                        <Button variant="dark" href="https://pokedex-dennis-jonathan.netlify.app/" target="_blank">Check it out !</Button>
                     </Card.Body>
                 </Card>
             </div>
