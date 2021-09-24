@@ -35,10 +35,10 @@ function App() {
               <Header />
               <Navigation />
                 <Router>
-                      <Col xs={12} md={3}><Link to="/"><button className="btn btn-outline-black col-3" type="button"> HOME</button></Link></Col>
-                      <Col xs={12} md={3}><Link to="/myProjects"><button className="btn btn-outline-black col-3" type="button">PROJECTS</button></Link></Col>
-                      <Col xs={12} md={3}><Link to="/aboutMe"><button className="btn btn-outline-black col-3 " type="button"> ABOUT</button></Link></Col>
-                      <Col xs={12} md={3}><Link to="/contactInfo"><button className="btn btn-outline-black col-3 " type="button"> CONTACT</button></Link></Col>
+                      <Col xs={12} md={3}><Link to="/"><button className="click btn btn-outline-black col-3" type="button"> HOME</button></Link></Col>
+                      <Col xs={12} md={3}><Link to="/myProjects"><button className="click btn btn-outline-black col-3" type="button">PROJECTS</button></Link></Col>
+                      <Col xs={12} md={3}><Link to="/aboutMe"><button className="click btn btn-outline-black col-3 " type="button"> ABOUT</button></Link></Col>
+                      <Col xs={12} md={3}><Link to="/contactInfo"><button className="click btn btn-outline-black col-3 " type="button"> CONTACT</button></Link></Col>
                   <Switch>
                     <Route path="/" exact component={Name} />
                     <Route path="/aboutMe" component={AboutMe} />
