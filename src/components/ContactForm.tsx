@@ -1,5 +1,6 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
+import { SocialIcon } from 'react-social-icons';
 
 
 export default function ContactForm() {
@@ -16,6 +17,8 @@ export default function ContactForm() {
                     <Form.Control as="textarea" rows={3} placeholder="Hi Dennis, let's work !" />
                 </Form.Group>
             </Form>
+            <SocialIcon url="https://linkedin.com/in/dennisvannieuwenhuyse" />
+            <SocialIcon url="https://github.com/DennisVN" />
         </div>
         
     </>

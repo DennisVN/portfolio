@@ -68,7 +68,8 @@ background-color: rgba(245, 245, 245, 0.0);
 
 .cardText
 {
-  font-size: 1.6rem;
+  text-align: center;
+  justify-content: center;
 
 }
 
@@ -135,7 +136,7 @@ background-color: rgba(245, 245, 245, 0.0);
     font-size: 1rem;
   }
 
-  .btn
+  .btn-outline-black
   {
     display: none;
   }
@@ -143,4 +144,5 @@ background-color: rgba(245, 245, 245, 0.0);
 {
   display: block;
 }
+
 }

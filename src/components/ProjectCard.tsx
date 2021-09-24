@@ -8,7 +8,7 @@ export default function ProjectCard() {
     return (
         <>
             <div className="cardContainer text-center">
-                <Card style={{ width: '30rem', height: '20rem', border:'primary' }}>
+                <Card style={{ border:'primary' }}>
                     <Card.Body>
                         <Card.Title>React Pokédex</Card.Title>
                         <Card.Text>
