@@ -26,7 +26,8 @@ export default function ProjectCard() {
                         <Card.Title>WEATHER APP<hr/></Card.Title>
                         <Card.Text>
                         I fetched the 5 day forecast, returned it to JSON, and manipulated it with JS.
-                        The user can input a city in the input field, click ENTER, and the forecast displays accordingly. 
+                        The user can input a city in the input field, click ENTER, and the forecast displays accordingly. <br/>
+                        <strong>*** DISCLAIMER : DOESN'T WORK ON MOBILE YET *** </strong>
                         </Card.Text>
                         <Button variant="dark" href="https://dennisvn.github.io/weather-app/" target="_blank">Deployed Here</Button><br/>
                         <Button variant="dark" href="https://github.com/DennisVN/weather-app" target="_blank">GitHub Repo</Button>
