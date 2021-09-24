@@ -15,7 +15,7 @@ export default function ContactForm() {
                     <Form.Label>Contact me :</Form.Label >
                     <Form.Control type="text" placeholder="d.vannieuwenhuyse@gmail.com" disabled/>
                     <Form.Label>Call me :</Form.Label >
-                    <Form.Control type="text" placeholder="+32 472 48 69 15" disabled/>
+                    <Form.Control type="text" placeholder="+32 472 4* ** **" disabled/>
                 </Form.Group>
             </Form>
         </div>
