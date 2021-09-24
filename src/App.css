@@ -14,8 +14,6 @@
   font-family: 'Syne', sans-serif;
   color: black;
   font-size: 10rem;
-  /* text-align: center;
-  justify-self: center; */
 }
 
 .fancySubName 
@@ -23,14 +21,8 @@
   font-family: 'Sentient', serif;
   color: #66ff00;
   font-size: 8rem;
-  /* text-align: center;
-  justify-self: center; */
 }
 
-/* .social-container
-{
-  padding-right: 1em;
-} */
 
 .btn-outline-black
 {
@@ -53,11 +45,6 @@
 .btn:focus, .btn:active:focus, .btn.active:focus{
   outline:none;
   box-shadow:none;
-}
-
-.cardContainer
-{
-  padding: 2px;
 }
 
 .contactContainer
@@ -115,8 +102,9 @@ background-color: rgba(245, 245, 245, 0.0);
 .cardContainer
 {
   /* display: flex; */
-  font-family: 'Courier', monospace;
-  font-size: 2rem;
+  font-family: 'Sentient', serif;
+  font-size: 1.5rem;
+  /* padding: 2px; */
 }
 
 .card
@@ -124,6 +112,7 @@ background-color: rgba(245, 245, 245, 0.0);
   background-color: #66ff00;
   border-style: none;
   border-radius: 0.05%;
+  width: 80%;
 }
 
 .formContainer 
@@ -172,6 +161,7 @@ background-color: rgba(245, 245, 245, 0.0);
 {
   width: 100%;
 }
+
 @media (max-width: 991.98px)
 {
     .fancyName 
