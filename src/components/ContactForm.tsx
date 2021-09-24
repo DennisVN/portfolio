@@ -8,17 +8,17 @@ export default function ContactForm() {
         <>
         <div className="formContainer">
             <Form>
-                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                    <Form.Label>Your e-mail:</Form.Label>
-                    <Form.Control type="email" placeholder="smartperson@hireme.com" />
+            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                    <Form.Label>Let's work </Form.Label>
+                    <Form.Control as="textarea" rows={6} placeholder="Thank you for checking out my page. By now you have a better idea about me and my purpose, so don't hesitate to contact me ! I love to collaborate, click on the social links to get started ." disabled/>
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Example textarea</Form.Label>
-                    <Form.Control as="textarea" rows={3} placeholder="Hi Dennis, let's work !" />
+                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                    <Form.Label>Contact me :</Form.Label >
+                    <Form.Control type="text" placeholder="d.vannieuwenhuyse@gmail.com" disabled/>
+                    <Form.Label>Call me :</Form.Label >
+                    <Form.Control type="text" placeholder="+32 472 48 69 15" disabled/>
                 </Form.Group>
             </Form>
-            <SocialIcon url="https://linkedin.com/in/dennisvannieuwenhuyse" />
-            <SocialIcon url="https://github.com/DennisVN" />
         </div>
         
     </>
