@@ -27,7 +27,7 @@ export default function AboutCard() {
                                                     <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
                                                 </svg>
                                                 <div className="cardText">
-                                                    <p>  JS, TS, PHP, CSS,(SASS)</p>
+                                                    <p>  JS, TS, PHP, CSS</p>
                                                 </div>
                                             </div> 
                                         </div>
@@ -88,7 +88,7 @@ export default function AboutCard() {
                                                     <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
                                                 </svg>
                                                 <div className="cardText">
-                                                    <p>Teamwork</p>
+                                                    <p>Experienced Salesman</p>
                                                 </div>
                                             </div> 
                                         </div>
@@ -110,7 +110,7 @@ export default function AboutCard() {
                                                     <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
                                                 </svg>
                                                 <div className="cardText">
-                                                    <p>Positivity</p>
+                                                    <p>Adaptive</p>
                                                 </div>
                                             </div> 
                                         </div>
@@ -121,7 +121,7 @@ export default function AboutCard() {
                                                     <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
                                                 </svg>
                                                 <div className="cardText">
-                                                    <p>Adaptive</p>
+                                                    <p>Positivity</p>
                                                 </div>
                                             </div> 
                                         </div>
@@ -169,7 +169,7 @@ export default function AboutCard() {
                                                     <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8zm-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7z"/>
                                                 </svg>
                                                 <div className="cardText">
-                                                    <p>Guitar</p>
+                                                    <p>Guitars</p>
                                                 </div>
                                             </div> 
                                         </div>
@@ -184,15 +184,14 @@ export default function AboutCard() {
                                                 </div>
                                             </div> 
                                         </div>
-                                    <br></br>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <br></br>
                     </Col>
                 </Row>
             </Container>
-            </div>
+            <br></br>
+        </div>
         </>    
     )
 }

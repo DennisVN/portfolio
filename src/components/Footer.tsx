@@ -5,6 +5,7 @@ export default function Footer() {
     return (
         <>
             <div>
+                <br/><br/>
                 <Container>
                     <Row>
                         <Col>
