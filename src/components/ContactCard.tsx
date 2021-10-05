@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
-import { Image } from 'react-bootstrap';
 
 export default function ContactCard() {
     return (
@@ -16,7 +15,7 @@ export default function ContactCard() {
                     </Col>
                 </Row>
             </Container>
-            <img src="/images/meandshtinkie.png" className="img-fluid"></img>
+            <img src="/images/meandshtinkie.png" className="img-fluid" alt="Picture of a man holding a cat and a bottle"></img>
         
         </div>
     )
