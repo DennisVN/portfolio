@@ -12,8 +12,7 @@ export default function ContactInfo() {
         <div className="contactContainer text-center">
             <Container>
                 <Row>
-                    <Col xs={12} md={8}><ContactForm /></Col>
-                    <Col xs={12} md={4}><ContactCard /></Col>
+                    <Col xs={12} md={12}><ContactForm /></Col>
                 </Row>
             </Container>
         </div>
