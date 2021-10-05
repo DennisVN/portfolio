@@ -3,7 +3,6 @@ import ContactForm from './ContactForm';
 import { Container } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
-import ContactCard from './ContactCard';
 
 
 export default function ContactInfo() {
