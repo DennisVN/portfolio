@@ -98,10 +98,8 @@ p.card-text
 
 .cardContainer
 {
-  /* display: flex; */
   font-family: 'Sentient', serif;
   font-size: 1.5rem;
-  /* padding: 2px; */
 }
 
 .card
@@ -166,8 +164,6 @@ p.card-text
     font-family: 'Syne', sans-serif;
     color: black;
     font-size: 3rem;
-    /* text-align: center;
-    justify-self: center; */
   }
 
   .fancySubName 
@@ -175,8 +171,6 @@ p.card-text
     font-family: 'Sentient', serif;
     color: #66ff00;
     font-size: 2rem;
-    /* text-align: center;
-    justify-self: center; */
   }
   .header
   {
@@ -190,41 +184,49 @@ p.card-text
     margin: 2px;
     border-style: none;
   }
-.col-md-3
-{
-  height: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 3.2rem;
-  width: 100%;
-}
+  .col-md-3
+  {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.2rem;
+    width: 100%;
+  }
 
-/* .click:hover
-{
-  background-color: transparent;
-} */
-.cardContainer 
-{
-  margin: 4px;
-  border-radius: 2%;
-  font-size: 1.5rem;
-}
+  .cardContainer 
+  {
+    margin: 4px;
+    border-radius: 2%;
+    font-size: 1.5rem;
+  }
 
-.fixed-bottom
-{
-  margin-bottom: 1px;
-  max-height: 50px;
-  font-size: 0.6rem;
-}
+  .fixed-bottom
+  {
+    margin-bottom: 1px;
+    max-height: 50px;
+    font-size: 0.6rem;
+  }
 
-.btn:focus, .btn:active:focus, .btn.active:focus{
-  outline:none;
-  box-shadow:none;
-}
+  .btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+  }
 
-.btn-outline-black
-{
-  height: 3rem;
-}
+  .btn-outline-black
+  {
+    height: 3rem;
+  }
+  /*Maak text boven header kleiner voor mobile*/
+  .header.m-2 
+  {
+    color: pink;
+    font-size: 0.75rem;
+  }
+  /*Remove horizontale lijn onder header voor mobile*/
+  hr 
+  {
+    display: none;
+    visibility: hidden;
+  }
 }
