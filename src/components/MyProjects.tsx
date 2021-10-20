@@ -9,7 +9,7 @@ export default function MyProjects() {
         <>
             <Container>
                 <Row>
-                    <Col xs={12} md={12}><ProjectCard /></Col>
+                    <Col xs={12} md={12} ><ProjectCard /></Col>
                 </Row>
                 <br></br>
                 <br></br>

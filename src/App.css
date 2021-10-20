@@ -100,6 +100,8 @@ p.card-text
 {
   font-family: 'Sentient', serif;
   font-size: 1.5rem;
+  display: flex; /*Waarom de fok implode m'n kaart ?*/
+  justify-content: center;
 }
 
 .card
@@ -148,6 +150,7 @@ p.card-text
 {
   margin: 4px;
   border-radius: 2%;
+
 }
 
 .card-body 

@@ -9,7 +9,7 @@ import { SiVisualstudiocode } from "react-icons/si";
 export default function ProjectCard() {
     return (
         <>
-            <div className="cardContainer text-center">
+            <div className="cardContainer ">
                 <Card style={{ border:'primary', textAlign: 'center' }}>
                     <Card.Body>
                         <Card.Title>REACT POKéDEX<hr/></Card.Title>

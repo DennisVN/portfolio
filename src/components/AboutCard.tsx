@@ -11,7 +11,7 @@ export default function AboutCard() {
             <Container>
                 
                 <Row>
-                    <Col xs={12} md={12}>
+                    <Col xs={12} md={12} >
                         <Card >
                             <Card.Body>
                             <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" className="bi bi-trophy" viewBox="0 0 16 16">
