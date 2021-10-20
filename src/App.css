@@ -220,8 +220,7 @@ p.card-text
   /*Maak text boven header kleiner voor mobile*/
   .header.m-2 
   {
-    color: pink;
-    font-size: 0.75rem;
+    font-size: 0.80rem;
   }
   /*Remove horizontale lijn onder header voor mobile*/
   hr 
