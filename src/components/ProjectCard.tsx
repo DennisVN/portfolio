@@ -10,7 +10,7 @@ export default function ProjectCard() {
     return (
         <>
             <div className="cardContainer text-center">
-                <Card style={{ border:'primary' }}>
+                <Card style={{ border:'primary', textAlign: 'center' }}>
                     <Card.Body>
                         <Card.Title>REACT POKéDEX<hr/></Card.Title>
                         <Card.Text>
