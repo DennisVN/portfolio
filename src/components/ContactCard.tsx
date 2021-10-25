@@ -7,11 +7,12 @@ export default function ContactCard() {
         <div>
             <Container>
                 <Row>
-                    <Col xs={12} md={12}>
-                        <SocialIcon className="m-2" url="mailto:d.vannieuwenhuyse@gmail.com" bgColor="black" />
-                        <SocialIcon className="m-2" url="https://linkedin.com/in/dennisvannieuwenhuyse" target="_blank" bgColor="black" />
-                        <SocialIcon className="m-2" url="https://github.com/DennisVN" target="_blank" bgColor="black" />
-                        <SocialIcon className="m-2" url="https://discordapp.com/users/4590/" target="_blank" bgColor="black" />
+                    <Col className="contactSpecs"xs={12} md={12}>
+                        <SocialIcon className=" m-2" url="mailto:d.vannieuwenhuyse@gmail.com" bgColor="black" /> <p className="linkedText">d.vannieuwenhuyse@gmail.com </p>
+                        <SocialIcon className=" m-2" url="https://linkedin.com/in/dennisvannieuwenhuyse" target="_blank" bgColor="black" /> <p className="linkedText">linkedin.com/in/dennisvannieuwenhuyse</p>
+                        <SocialIcon className=" m-2" url="https://github.com/DennisVN" target="_blank" bgColor="black" /><p className="linkedText"> github.com/DennisVN</p>
+                        <SocialIcon className=" m-2" url="https://discordapp.com/users/4590/" target="_blank" bgColor="black" /> <p className="linkedText"> discordapp.com/users/4590/ </p>
+                        <br/>
                     </Col>
                 </Row>
             </Container>

@@ -171,7 +171,14 @@ p.card-text
 
 .dadJoke
 {
-  font-size:1.50rem;
+  font-size:1rem;
+}
+
+.contactSpecs
+{
+  color:red;
+  font-size: ;
+  color:#bb25fb;
 }
 
 @media (max-width: 991.98px)
@@ -194,7 +201,7 @@ p.card-text
   .fancySubName 
   {
     font-family: 'Sentient', serif;
-    color: #66ff00;
+    color: #bb25fb;
     font-size: 1.75rem;
     display: block;
     box-sizing: content-box;
@@ -224,6 +231,22 @@ p.card-text
     width: 100%;
   }
 
+  .click:hover {
+    border-top:none;
+    opacity: 0.7 0.1s;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    color: #82F3A2;
+  }
+  
+  .btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+    color: #82F3A2;
+    border-top: none;
+    border-bottom:6px solid #bb25fb;
+  }
+
   .col-md-12
   {
     margin-bottom: 20px;
@@ -236,12 +259,13 @@ p.card-text
     align-items: center;
     justify-self: center;
     background-color: transparent;
-    border-top:3px solid #76eec6;
+    border-top: transparent; 
+    border-bottom:3px solid #82F3A2;
     border-radius:1%
   }
   .card-body
   {
-    background-color: #66ff00;
+    background-color: #82F3A2;
     width: 100%;
   }
   .cardContainer 
