@@ -155,26 +155,38 @@ p.card-text
 
 .card-body 
 {
-  width: 100%;
   border-radius: 2%;
   box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
 
 @media (max-width: 991.98px)
 {
-    .fancyName 
+  *
+  {
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+  }
+
+  .fancyName 
   {
     font-family: 'Syne', sans-serif;
     color: black;
     font-size: 3rem;
+
   }
 
   .fancySubName 
   {
     font-family: 'Sentient', serif;
     color: #66ff00;
-    font-size: 2rem;
+    font-size: 1.75rem;
+    display: block;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
   }
+
   .header
   {
     font-family: 'Syne', sans-serif;
@@ -231,4 +243,4 @@ p.card-text
     display: none;
     visibility: hidden;
   }
-}
+} 
