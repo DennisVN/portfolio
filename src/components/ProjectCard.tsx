@@ -12,15 +12,16 @@ export default function ProjectCard() {
             <div className="cardContainer ">
                 <Card style={{ border:'primary', textAlign: 'center' }}>
                     <Card.Body>
-                        <Card.Title>REACT POKéDEX<hr/></Card.Title>
+                        <Card.Title>REACT POKéDEX <hr/><FaReact />  <FaJsSquare /> <SiVisualstudiocode /> </Card.Title>
                         <Card.Text>
                             Pokédex app in React, not your average tutorial dex.
                             First page created by the amazing Jonathan, Pokédex page by me .
-                            Used PokéAPI for this project.<br/>
-                            <FaReact />  <FaJsSquare /> <SiVisualstudiocode />
+                            Used PokéAPI for this project.
                         </Card.Text>
-                        <Button variant="dark" href="https://pokedex-dennis-jonathan.netlify.app/" target="_blank">Deployed Here</Button><br/>
-                        <Button variant="dark" href="https://github.com/DennisVN/pokedex" target="_blank">GitHub Repo</Button>
+                        <Button variant="dark" href="https://pokedex-dennis-jonathan.netlify.app/" target="_blank">See the result here</Button><br/>
+                        <Button variant="dark" href="https://github.com/DennisVN/pokedex" target="_blank">Go bug hunting</Button>
+                        <br></br>
+                        <br></br>
                     </Card.Body>
                 </Card>
                 <div className="cardContainer text-center">

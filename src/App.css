@@ -8,7 +8,7 @@
 .fancySubName 
 {
   font-family: 'Sentient', serif;
-  color: #66ff00;
+  color: #82F3A2;
   font-size: 8rem;
 }
 
@@ -47,7 +47,7 @@
 .fixed-bottom 
 {
   font-family: 'Sentient', serif;
-  color: #66ff008c;
+  color: #bb25fb;
   background-color: rgb(0, 0, 0);
   height: 4rem;
   font-size: 1.2rem;
@@ -68,6 +68,7 @@
   text-align: center;
   margin: auto;
   margin-top: 22%;
+  
 }
 .card
 { 
@@ -107,17 +108,17 @@ p.card-text
   font-size: 1.5rem;
   display: flex; 
   justify-content: center;
+  
 }
 
 .card
 {
-  background-color: #66ff00;
+  background-color: #82F3A2;
   border-style: none;
-  border-radius: 0.05%;
   width: 100%;
   border-top:6px solid #76eec6;
-  margin: 4px;
-  border-radius: 2%;
+  /* margin: 4px; */
+  /* border-radius: 4%; */
 }
 
 .formContainer 
@@ -129,7 +130,7 @@ p.card-text
 .form-group
 {
   background-color: #66ff00;
-  border-radius: 0.4%;
+  /* border-radius: 0.4%; */
 }
 .form-control
 {
@@ -154,8 +155,12 @@ p.card-text
 
 .card-body 
 {
-  border-radius: 2%;
   box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.dadJoke
+{
+  font-size:1.50rem;
 }
 
 @media (max-width: 991.98px)
@@ -221,6 +226,7 @@ p.card-text
     justify-self: center;
     background-color: transparent;
     border-top:3px solid #76eec6;
+    border-radius:1%
   }
   .card-body
   {
@@ -232,8 +238,8 @@ p.card-text
     display: block; 
     justify-content: center;
     width: 90%;
-    margin-left: 4px;
-    border-radius: 2%;
+    /* margin-left: 4px; */
+    /* border-radius: 2%; */
     font-size: 1rem;
   }
 
@@ -263,4 +269,23 @@ p.card-text
     display: none;
     visibility: hidden;
   }
+
+  .bi-trophy , .bi-people, .bi-easel
+  {
+    width: 50px;
+    height: 50px;
+  }
+
+  .bi-bag-check, .bi-heart, .bi-palette
+  {
+    width: 25px;
+    height: 25px;
+  }
+
+  .dadJoke
+{
+  font-size:0.75rem;
+}
+
+
 } 
