@@ -14,11 +14,11 @@ export default function ProjectCard() {
                     <Card.Body>
                         <Card.Title>REACT POKéDEX <hr/><FaReact />  <FaJsSquare /> <SiVisualstudiocode /> </Card.Title>
                         <Card.Text >
-                            <div className="font-extralight">
-                                Pokédex app in React, not your average tutorial dex.<br/>
-                                Scroll through all Kanto (151) Pokemon, and see their individual abilities. <br/>
-                                Or go to the Pokédex page and use the D-pad to see their movesets. <br/>
-                                First page created by the amazing Jonathan, Pokédex page made by me . <br/>
+                            <div className="projectText">
+                                Pokédex app in React, not your average tutorial dex.
+                                Scroll through all Kanto (151) Pokemon, and see their individual abilities.
+                                Or go to the Pokédex page and use the D-pad to see their movesets.
+                                First page created by the amazing Jonathan, Pokédex page made by me .
                                 We used PokéAPI and the golden combo of React and JavaScript. 
                             </div>
                         </Card.Text>
