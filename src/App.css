@@ -278,23 +278,24 @@ p.card-text
     align-items: center;
     justify-self: center;
     background-color: transparent;
-    border-top: transparent; 
-    border-bottom:3px solid #82F3A2;
-    border-radius:1%
+    border-top: transparent;
+    /* border-radius:1% */
   }
   .card-body
   {
     padding: 0.5rem 0.5rem;
     width: 100%;
+    border-top:6px solid #b6bae7;
+    border-radius: 0.5%
+
   }
   .cardContainer 
   {
     display: block; 
     justify-content: center;
     width: 90%;
-    /* margin-left: 4px; */
-    /* border-radius: 2%; */
     font-size: 1rem;
+    border-radius: 2%
   }
 
   .fixed-bottom
