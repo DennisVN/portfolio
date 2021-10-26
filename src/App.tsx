@@ -29,7 +29,7 @@ function App() {
           <ClimbingBoxLoader color={"#82F3A2"} loading={loading} size={30}/>
           : 
           <>
-          <Container>
+          <Container >
             <Row>
                 <Header />
                   <Router>

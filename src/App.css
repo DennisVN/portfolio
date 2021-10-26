@@ -226,10 +226,14 @@ p.card-text
 {
   *
   {
-    box-sizing: content-box;
+    box-sizing: bord-box;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
+    /* align-items: center;
+    justify-content: center; */
+    /* padding-right: 1px; */
   }
+  
 
   .container
   {
@@ -275,10 +279,12 @@ p.card-text
   {
     height: 3rem;
     display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: center;
     height: 3.2rem;
-    width: 100%;
+    width: 85%;
+    
+    
   }
 
   .click:hover {
