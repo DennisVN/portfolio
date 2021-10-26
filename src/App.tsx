@@ -9,7 +9,7 @@ import MyProjects from './components/MyProjects';
 import Name from './components/Name';
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import { Col, Container, Row } from 'react-bootstrap';
-
+import { AnimatePresence } from 'framer-motion';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -23,32 +23,34 @@ function App() {
 
   return (
     <div className="App">
-      {
-        loading ?
-        
-        <ClimbingBoxLoader color={"#82F3A2"} loading={loading} size={30}/>
-        : 
-        <>
-        <Container>
-          <Row>
-              <Header />
-                <Router>
-                      <Col xs={12} md={3}><Link to="/"><button className="click btn btn-outline-black col-3" type="button"> HOME</button></Link></Col>
-                      <Col xs={12} md={3}><Link to="/myProjects"><button className="click btn btn-outline-black col-3" type="button">PROJECTS</button></Link></Col>
-                      <Col xs={12} md={3}><Link to="/aboutMe"><button className="click btn btn-outline-black col-3 " type="button"> ABOUT</button></Link></Col>
-                      <Col xs={12} md={3}><Link to="/contactInfo"><button className="click btn btn-outline-black col-3 " type="button"> CONTACT</button></Link></Col>
-                  <Switch>
-                    <Route path="/" exact component={Name} />
-                    <Route path="/aboutMe" component={AboutMe} />
-                    <Route path="/myProjects" component={MyProjects}/>
-                    <Route path="/contactInfo" component={ContactInfo}/>
-                  </Switch>
-                </Router>
-              <Footer />
-          </Row>
-        </Container >
-        </>
-      }
+        {
+          loading ?
+          
+          <ClimbingBoxLoader color={"#82F3A2"} loading={loading} size={30}/>
+          : 
+          <>
+          <Container>
+            <Row>
+                <Header />
+                  <Router>
+                        <Col xs={12} md={3}><Link to="/"><button className="click btn btn-outline-black col-3" type="button"> HOME</button></Link></Col>
+                        <Col xs={12} md={3}><Link to="/myProjects"><button className="click btn btn-outline-black col-3" type="button">PROJECTS</button></Link></Col>
+                        <Col xs={12} md={3}><Link to="/aboutMe"><button className="click btn btn-outline-black col-3 " type="button"> ABOUT</button></Link></Col>
+                        <Col xs={12} md={3}><Link to="/contactInfo"><button className="click btn btn-outline-black col-3 " type="button"> CONTACT</button></Link></Col>
+                    <AnimatePresence >
+                      <Switch>
+                        <Route path="/" exact component={Name} />
+                        <Route path="/aboutMe" component={AboutMe} />
+                        <Route path="/myProjects" component={MyProjects}/>
+                        <Route path="/contactInfo" component={ContactInfo}/>
+                      </Switch>
+                    </AnimatePresence>
+                  </Router>
+                <Footer />
+            </Row>
+          </Container >
+          </>
+        }
 
     </div>
   );
