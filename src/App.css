@@ -106,7 +106,7 @@ background-color: rgba(245, 245, 245, 0.0);
   justify-content: center;
   color: black;
   font-size: 2rem;
-  font-weight: small;
+  /* font-weight: small; */
 }
 
 p.card-text
@@ -213,6 +213,14 @@ p.card-text
     -moz-box-sizing: content-box;
   }
 
+  .container
+  {
+    width: 100%;
+    overflow: hidden;
+    /* overflow: scrollbar; */
+    margin: 10px;
+  }
+
   .fancyName 
   {
     font-family: 'Syne', sans-serif;
@@ -243,6 +251,7 @@ p.card-text
     width: 50%;
     margin: 2px;
     border-style: none;
+    font-size: 0.75rem;
   }
   .col-md-3 /*HEADING*/
   {
@@ -295,11 +304,13 @@ p.card-text
   }
   .cardContainer 
   {
-    display: block; 
-    justify-content: center;
+    display: inline-grid; 
+    align-items: center;
+    justify-self:center;
     width: 90%;
     font-size: 1rem;
-    border-radius: 2%
+    border-radius: 2%;
+    margin-right: 30px;
   }
 
   .fixed-bottom
@@ -342,9 +353,59 @@ p.card-text
   }
 
   .dadJoke
-{
-  font-size:0.75rem;
-}
+  {
+    font-size:0.75rem;
+  }
 
+  .projectText
+  {
+    font-family: 'monospace', courier;
+    color: black;
+    font-size: 0.75rem;
+  }
+
+  .card-title.h5
+  {
+    font-family: 'Syne', sans-serif;
+    color: rgb(33, 33, 33);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top : 20px;
+  }
+  .cardText, .formContainer
+  {
+    font-size: 0.75rem;
+  }
+
+  .bi-trophy , .bi-people, .bi-easel
+  {
+    margin-left: 15px;
+  }
+
+  .bi-bag-check, .bi-bookmark-heart, .bi-palette
+  {
+    width: 12px;
+    height: 12px;
+    margin-left: 15px;
+  }
+  
+  .img-fluid
+  {
+    width: 75%;
+    height: 75%;
+    border-radius: 0.05%;
+    margin-top: -5px;
+    margin-bottom: 5px;
+  }
+
+  .fixed-bottom
+  {
+    color: #bb25fb;
+    background-color: rgb(0, 0, 0);
+    height: 4rem;
+    font-size: 0.50rem;
+    opacity: 0.9;
+  }
 
 } 
