@@ -19,6 +19,14 @@
   font-size: 8rem;
 }
 
+.redirection
+{
+  /* font-family: 'Sentient', serif; */
+  font-size: 2rem;
+  float: right;
+  text-align: right;
+}
+
 .col-md-12
 {
   margin-bottom: 20px;
@@ -204,6 +212,16 @@ p.card-text
   color: black;
   font-size: 2rem;
 }
+
+.bi-bag-check, .bi-bookmark-heart, .bi-palette
+  {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    /* float: left; */
+    margin-left: 120px;
+    margin-top: 8px;
+  }
 @media (max-width: 991.98px)
 {
   *
@@ -351,6 +369,7 @@ p.card-text
     width: 25px;
     height: 25px;
   }
+
 
   .dadJoke
   {
