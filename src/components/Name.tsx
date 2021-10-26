@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 // import './App.css';
 import {motion} from 'framer-motion';
 import { animationOne, transition } from '../animations';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export default function Name() {
     return (

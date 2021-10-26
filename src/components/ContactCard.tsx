@@ -16,7 +16,7 @@ export default function ContactCard() {
                     </Col>
                 </Row>
             </Container>
-            <img src="/images/grayscale.png" className="img-fluid mx-auto" alt="grayscale photo of Beaucoupdargent"></img>
+            <img src="/images/grayscale.png" className="img-fluid mx-auto" alt="rare display of a wild Beaucoupdargent"></img>
         
         </div>
     )
