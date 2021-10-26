@@ -51,7 +51,7 @@
 /* fixed bottom = Footer */
 .fixed-bottom 
 {
-  font-family: 'Sentient', serif;
+  font-family: 'Monospace', courier;
   color: #bb25fb;
   background-color: rgb(0, 0, 0);
   height: 4rem;
@@ -99,8 +99,9 @@ background-color: rgba(245, 245, 245, 0.0);
   /* font-weight: 500; */
   text-align: center;
   justify-content: center;
-  color: white;
+  color: black;
   font-size: 2rem;
+  font-weight: small;
 }
 
 p.card-text
@@ -132,10 +133,10 @@ p.card-text
 
 .card
 {
-  background-color: #b299FF;
+  /* background-color: #b299FF; */
   border-style: none;
   width: 100%;
-  border-top:6px solid #b188FF;
+  border-top:6px solid #b6bae7;
   /* margin: 4px; */
   /* border-radius: 4%; */
 }
@@ -158,6 +159,7 @@ p.card-text
 
 .btn-dark
 {
+  font-family: 'syne', serif;
   color: rgba(255, 255, 255, 0.85);
   width: 50%;
   margin: 2px;
@@ -175,14 +177,13 @@ p.card-text
 
 .card-body 
 {
-  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
-  background-color: #ff7f50;
+  background-color: rgba(255, 192, 203, 0.3);
 }
 
 .dadJoke
 {
   font-size:1.5rem;
-  color: white; 
+  color: black; 
   opacity: 0.9;
 }
 
@@ -190,13 +191,13 @@ p.card-text
 {
   color:red;
   font-size: ;
-  color: white;
+  color: #b6bae7;
 }
 
 .projectText
 {
   font-family: 'monospace', courier;
-  color: white;
+  color: black;
   font-size: 2rem;
 }
 @media (max-width: 991.98px)
