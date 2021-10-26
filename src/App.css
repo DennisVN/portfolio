@@ -1,4 +1,9 @@
-
+.container
+{
+  width: 100vh;
+  /* overflow: scrollbar; */
+  padding: 0px !important;
+}
 
 .fancyName 
 {
@@ -128,7 +133,6 @@ p.card-text
   font-size: 1.5rem;
   display: flex; 
   justify-content: center;
-  
 }
 
 .card
