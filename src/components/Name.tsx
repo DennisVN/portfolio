@@ -10,8 +10,8 @@ export default function Name() {
         <>
         <motion.div initial='out' animate='in' exit='out' variants={animationOne} transition={transition}>
             <Container>
-                <Row>
-                    <Col xs={6} md={12}><div className="fancyName" >DENNIS</div></Col><hr />
+                <Row className="nameSection">
+                    <Col xs={6} md={12}><div className="fancyName " >DENNIS</div></Col><hr />
                     <Col xs={6} md={12}><div className="fancySubName">Let me fix this for you</div></Col>
                 </Row>
                 <Row>

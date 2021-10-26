@@ -16,7 +16,7 @@ export default function ContactCard() {
                     </Col>
                 </Row>
             </Container>
-            <img src="/images/meandshtinkie.png" className="img-fluid mx-auto" alt="a man holding a cat and a bottle"></img>
+            <img src="/images/grayscale.png" className="img-fluid mx-auto" alt="grayscale photo of Beaucoupdargent"></img>
         
         </div>
     )

@@ -113,7 +113,7 @@ background-color: rgba(245, 245, 245, 0.0);
   text-align: center;
   justify-content: center;
   color: black;
-  font-size: 2rem;
+  font-size: 2.5rem;
   /* font-weight: small; */
 }
 
@@ -220,7 +220,16 @@ p.card-text
     position: absolute;
     /* float: left; */
     margin-left: 120px;
-    margin-top: 8px;
+    margin-top: 6px;
+  }
+  
+  .img-fluid
+  {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-self:center;
+    align-items:center;
   }
 @media (max-width: 991.98px)
 {
@@ -247,7 +256,7 @@ p.card-text
   {
     font-family: 'Syne', sans-serif;
     color: black;
-    font-size: 3rem;
+    font-size: 2.8rem;
 
   }
 
@@ -255,7 +264,7 @@ p.card-text
   {
     font-family: 'Sentient', serif;
     color: #bb25fb;
-    font-size: 1.75rem;
+    font-size: 1.55rem;
     display: block;
     box-sizing: content-box;
     -webkit-box-sizing: content-box;
@@ -277,16 +286,23 @@ p.card-text
   }
   .col-md-3 /*HEADING*/
   {
-    height: 3rem;
+    /* height: 3rem; */
     display: flex;
     text-align: center;
     justify-content: center;
-    height: 3.2rem;
+    height: 2.5rem;
     width: 85%;
     
     
   }
+  .row > * {
+    padding-left: calc(var(--bs-gutter-x) * .3);
+  }
 
+  .nameSection
+  {
+    padding-left: 10px;
+  }
   .click:hover {
     border-top:none;
     opacity: 0.7 0.1s;
@@ -300,7 +316,7 @@ p.card-text
     box-shadow:none;
     color: #82F3A2;
     border-top: none;
-    border-bottom:6px solid #bb25fb;
+    border-bottom:2px solid #bb25fb;
   }
 
   .col-md-12
@@ -350,7 +366,7 @@ p.card-text
 
   .btn-outline-black
   {
-    height: 3rem;
+    height: 2rem;
   }
   /*Maak text boven header kleiner voor mobile*/
   .header.m-2 
@@ -400,7 +416,7 @@ p.card-text
   }
   .cardText, .formContainer
   {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 
   .bi-trophy , .bi-people, .bi-easel
@@ -412,7 +428,7 @@ p.card-text
   {
     width: 12px;
     height: 12px;
-    margin-left: 15px;
+    margin-left: 35px;
   }
   
   .img-fluid

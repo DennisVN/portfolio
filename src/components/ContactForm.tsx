@@ -14,7 +14,8 @@ export default function ContactForm() {
                             Let's build the future together ! <br/>
                             If you like what you see, click one of the icons below to get in touch.<br></br>
                             <ContactCard />
-                            <p className="dadJoke"> My cat is a recovering alcoholic, please give us a chance so we can pay her rehab.</p>
+                            <br/>
+                            <p className="dadJoke">Thanks for checking out my Portfolio. See you soon ! </p>
                         </Card.Text>
                     </Card.Body>
                 </Card>
