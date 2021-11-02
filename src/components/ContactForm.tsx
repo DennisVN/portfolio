@@ -6,8 +6,8 @@ import ContactCard from './ContactCard';
 export default function ContactForm() {
     return (
         <>
-            <div className="formContainer">
-                <Card style={{ border:'primary' }}>
+            <div className="formContainer text-center">
+                <Card style={{ border:'primary'}}>
                     <Card.Body>
                         <Card.Title>CONTACT ME<hr/></Card.Title>
                         <Card.Text>
