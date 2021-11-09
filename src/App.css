@@ -416,6 +416,7 @@ p.card-text
   {
     font-size: 1rem;
     margin-left: 10px;
+    width: 100%;
   }
 
   .bi-trophy , .bi-people, .bi-easel
@@ -462,7 +463,7 @@ p.card-text
   }
   .contactContainer
   {
-    max-width: 312px;
+    max-width: 316px;
   }
   .contactSpecs
   {
