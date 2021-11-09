@@ -59,7 +59,9 @@
 
 .contactContainer
 {
-  padding: 6px;
+  padding: 4px;
+  padding-top:10px;
+
 }
 /* fixed bottom = Footer */
 .fixed-bottom 
@@ -115,10 +117,12 @@ background-color: rgba(245, 245, 245, 0.0);
 
 p.card-text
 {
-  color: rgba(56, 56, 56, 0.871);
-  size: small;
+  color: red;
+  size: x-small;
   font-family: 'monospace', courier;
   color: black;
+  margin-left: 10px;
+  margin-right: 5px;
 }
 
 .card-title.h5
@@ -281,14 +285,11 @@ p.card-text
   }
   .col-md-3 /*HEADING*/
   {
-    /* height: 3rem; */
     display: flex;
     text-align: center;
     justify-content: center;
     height: 2.5rem;
     width: 85%;
-    
-    
   }
   .row > * {
     padding-left: calc(var(--bs-gutter-x) * .3);
@@ -331,10 +332,12 @@ p.card-text
   }
   .card-body
   {
-    padding: 0.5rem 0.5rem;
-    width: 100%;
+    /* padding: 0.5rem 0.5rem; */
+    max-width: 310px;
+    width:100%;
+    /* height: 100%; */
     border-top:6px solid #b6bae7;
-    border-radius: 0.5%
+    border-radius: 0.5%;
   }
   .cardContainer 
   {
@@ -390,6 +393,8 @@ p.card-text
   .dadJoke
   {
     font-size:0.75rem;
+    margin-bottom: 30px;
+    /* margin-right: 15px; */
   }
 
   .projectText
@@ -427,11 +432,13 @@ p.card-text
   
   .img-fluid
   {
-    width: 75%;
+    width: 50%;
+    height: 30%
+    /* width: 75%;
     height: 75%;
     border-radius: 0.05%;
-    margin-top: -5px;
-    margin-bottom: 5px;
+    margin-top: -5px; */
+    /* margin-bottom: 5px; */
   }
 
   .fixed-bottom
@@ -449,9 +456,17 @@ p.card-text
     height: 25px;
   }
 
-  /* .social-svg
+  a.social-icon-m-2
   {
-    width: 25px;
-    height: 25px;
-  } */
+    size: 20%;
+  }
+  .contactContainer
+  {
+    max-width: 312px;
+  }
+  .contactSpecs
+  {
+    color: #b6bae7;
+    font-size: 0.8rem;
+  }
 } 
