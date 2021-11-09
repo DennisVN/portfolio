@@ -57,12 +57,6 @@
   border-top:6px solid #bb25fb;
 }
 
-.contactContainer
-{
-  padding: 4px;
-  padding-top:10px;
-
-}
 /* fixed bottom = Footer */
 .fixed-bottom 
 {
@@ -197,11 +191,6 @@ p.card-text
   font-size:1.5rem;
   color: black; 
   opacity: 0.9;
-}
-
-.contactSpecs
-{
-  color: #b6bae7;
 }
 
 .projectText
@@ -461,13 +450,14 @@ p.card-text
   {
     size: 20%;
   }
-  .contactContainer
+
+  .formContainer
   {
-    max-width: 316px;
+    margin-left: 5px;
   }
-  .contactSpecs
+
+  .linkedText
   {
     color: #b6bae7;
-    font-size: 0.8rem;
   }
 } 
