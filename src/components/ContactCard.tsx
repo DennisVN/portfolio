@@ -1,5 +1,4 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
 
 export default function ContactCard() {
