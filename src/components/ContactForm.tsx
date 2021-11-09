@@ -8,7 +8,7 @@ export default function ContactForm() {
         <>
         <Container>
             <Row>
-                <Col className="contactSpecs px-10" xs={12} md={12}>
+                {/* <Col className="contactSpecs px-10" xs={12} md={12}> */}
                     <div className="formContainer">
                         <Card style={{ border:'primary'}}>
                             <Card.Body>
@@ -21,7 +21,7 @@ export default function ContactForm() {
                             </Card.Body>
                         </Card>
                     </div>
-                </Col>
+                {/* </Col> */}
             </Row>
         </Container>
 
