@@ -7,11 +7,10 @@ import { Row } from 'react-bootstrap';
 export default function AboutCard() {
     return (
         <>
-        <div className="cardContainer">
+        <div className="cardContainer px-1">
             <Container>
-                
                 <Row>
-                    <Col xs={12} md={12} >
+                    <Col xs={12} md={12}>
                         <Card >
                             <Card.Body>
                             <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" className="bi bi-trophy" viewBox="0 0 16 16">

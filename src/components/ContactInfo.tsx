@@ -11,7 +11,7 @@ export default function ContactInfo() {
     return (
         <>
         <motion.div initial='out' animate='in' exit='out' variants={animationOne} transition={transition}>
-            <div className="cardContainer text-center">
+            <div className="cardContainer text-center p-1 my-n1">
                 <Container>
                     <Row>
                         <Col xs={12} md={12}><ContactForm /></Col>
